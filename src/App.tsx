@@ -170,7 +170,7 @@ export default function App() {
               <h2 className="text-center font-bold text-gray-800 text-base">
                 Semua Outlet{" "}
                 <span className="italic text-gray-500">
-                  diurutkan terdekat dari lokasimu saat ini
+                  diurutkan berdasarkan jarak terdekat dari lokasimu
                 </span>
               </h2>
             </div>
