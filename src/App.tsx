@@ -91,13 +91,16 @@ export default function App() {
       <header className="bg-gray-800 border-b border-gray-700 shadow-sm">
         <div className="max-w-2xl mx-auto px-4 py-8">
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6 mb-3 text-center sm:text-left">
-            <div className="w-20 h-20 sm:w-20 sm:h-20 flex-shrink-0 rounded-xl flex items-center justify-center overflow-hidden bg-grey">
+            {/* LOGO DIKURANGI SEDIKIT UKURANNYA */}
+            {/* Menggunakan w-48 (192px) untuk HP */}
+            <div className="w-48 sm:w-40 flex-shrink-0 flex items-center justify-center overflow-hidden mb-2 sm:mb-0">
               <img
                 src={geekoLogo}
                 alt="Logo Geeko"
-                className="w-full h-full object-contain"
+                className="w-full h-auto object-contain"
               />
             </div>
+
             <h1 className="text-3xl sm:text-4xl font-montserrat text-yellow-300 tracking-tight leading-tight">
               GEEKO KOMPUTER INDONESIA
             </h1>
@@ -196,7 +199,6 @@ export default function App() {
                   </tr>
                 </thead>
                 <tbody>
-                  {/* .slice(0, 1) DIHAPUS, SEKARANG ME-RENDER SEMUA DATA YANG SUDAH DIURUTKAN */}
                   {allOutletsWithDist.map((outlet, idx) => (
                     <tr
                       key={outlet.id}
