@@ -105,7 +105,7 @@ export default function App() {
               GEEKO KOMPUTER INDONESIA
             </h1>
           </div>
-          <p className="text-base sm:text-lg text-white font-medium text-center">
+          <p className="text-sm sm:text-base text-white font-normal font-montserrat tracking-tight text-center">
             Temukan outlet GEEKO terdekat dari lokasimu
           </p>
         </div>
