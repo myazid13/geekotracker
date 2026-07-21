@@ -216,14 +216,19 @@ export default function App() {
                         {outlet.address || "-"}
                       </td>
                       <td className="px-4 py-3 text-center">
+                        {/* UPDATE LOGIKA JARAK DI SINI */}
                         <span
                           className={`inline-block font-bold px-2 py-0.5 rounded text-xs ${
-                            outlet.distance <= RADIUS_KM
-                              ? "bg-green-100 text-green-700"
-                              : "bg-gray-100 text-gray-500"
+                            outlet.distance <= 0.05
+                              ? "bg-blue-100 text-blue-700" // Warna khusus untuk Di Lokasi
+                              : outlet.distance <= RADIUS_KM
+                                ? "bg-green-100 text-green-700" // Warna untuk dalam radius
+                                : "bg-gray-100 text-gray-500" // Warna untuk di luar radius
                           }`}
                         >
-                          {outlet.distance.toFixed(2)} km
+                          {outlet.distance <= 0.05
+                            ? "Di Lokasi"
+                            : `${outlet.distance.toFixed(2)} km`}
                         </span>
                       </td>
                       <td className="px-4 py-3 text-center">
