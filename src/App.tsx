@@ -93,7 +93,7 @@ export default function App() {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6 mb-3 text-center sm:text-left">
             {/* LOGO DIKURANGI SEDIKIT UKURANNYA */}
             {/* Menggunakan w-48 (192px) untuk HP */}
-            <div className="w-48 sm:w-40 flex-shrink-0 flex items-center justify-center overflow-hidden mb-2 sm:mb-0">
+            <div className="w-48 sm:w-40 flex-shrink-0 flex items-center justify-center overflow-hidden mb-1 sm:mb-0">
               <img
                 src={geekoLogo}
                 alt="Logo Geeko"
