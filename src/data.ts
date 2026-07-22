@@ -19,7 +19,7 @@ export const GEEKO_OUTLETS: GeekoOutlet[] = [
   },
   {
     id: 3,
-    name: "GEEKO UNESA Ketintang",
+    name: "GEEKO Puast UNESA Ketintang",
     lat: -7.3096123,
     lng: 112.7308368,
     mapsUrl: "https://maps.app.goo.gl/vM29XvSvC6c3hYMr8",
