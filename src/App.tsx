@@ -114,9 +114,9 @@ export default function App() {
       <main className="max-w-2xl mx-auto px-4 py-6 space-y-6">
         {/* Location Card */}
         <div className="bg-white rounded-xl border border-gray-200 shadow-sm overflow-hidden">
-          <div className="bg-yellow-300 px-5 py-3 flex items-center gap-2">
-            <Navigation className="w-4 h-4 text-black" />
-            <span className="text-black font-semibold text-sm">
+          <div className="bg-red-700 px-5 py-3 flex items-center gap-2">
+            <Navigation className="w-4 h-4 text-white" />
+            <span className="text-white font-semibold text-sm">
               Lokasi Kamu saat ini :
             </span>
           </div>
@@ -173,7 +173,7 @@ export default function App() {
               <h2 className="text-center font-bold text-black text-base leading-none">
                 Hasil pencarian outlet GEEKO diurutkan berdasarkan jarak
                 terdekat dari lokasimu
-                <span className="text-gray-800 font-normal text-xs block mt-1">
+                <span className="text-gray-800 font-normal text-xs block mt-3">
                   Klik tombol Maps untuk melihat lokasi outlet di Google Maps
                 </span>
               </h2>
