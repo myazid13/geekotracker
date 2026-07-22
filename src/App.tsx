@@ -173,7 +173,7 @@ export default function App() {
               <h2 className="text-center font-bold text-black text-base leading-none">
                 Hasil pencarian outlet GEEKO diurutkan berdasarkan jarak
                 terdekat dari lokasimu
-                <span className="text-gray-800 font-normal text-xs block mt-0">
+                <span className="text-gray-800 font-normal text-xs block mt-2">
                   Klik tombol Maps untuk melihat lokasi outlet di Google Maps
                 </span>
               </h2>
