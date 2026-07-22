@@ -117,7 +117,7 @@ export default function App() {
           <div className="bg-red-700 px-5 py-3 flex items-center gap-2">
             <Navigation className="w-4 h-4 text-white" />
             <span className="text-white font-semibold text-sm">
-              Lokasi Kamu saat ini :
+              Lokasimu saat ini :
             </span>
           </div>
 
