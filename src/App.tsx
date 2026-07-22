@@ -117,7 +117,7 @@ export default function App() {
           <div className="bg-yellow-300 px-5 py-3 flex items-center gap-2">
             <Navigation className="w-4 h-4 text-black" />
             <span className="text-black font-semibold text-sm">
-              Lokasi Kamu :
+              Lokasi Kamu saat ini :
             </span>
           </div>
 
@@ -170,10 +170,12 @@ export default function App() {
         {userLocation && allOutletsWithDist.length > 0 && (
           <div className="bg-white rounded-xl border border-gray-200 shadow-sm overflow-hidden">
             <div className="px-5 py-4 border-b border-gray-100">
-              <h2 className="text-center font-bold text-gray-800 text-base">
-                Semua Outlet{" "}
-                <span className="italic text-gray-500">
-                  diurutkan berdasarkan jarak terdekat dari lokasimu
+              <h2 className="text-center font-bold text-black text-base">
+                Semua hasil pencarian outlet GEEKO diurutkan berdasarkan jarak
+                terdekat dari lokasimu{" "}
+                <span className="text-gray-800 font-normal text-sm block mt-1">
+                  Silakan klik tombol Maps untuk melihat lokasi outlet di Google
+                  Maps
                 </span>
               </h2>
             </div>
