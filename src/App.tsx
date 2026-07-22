@@ -170,10 +170,10 @@ export default function App() {
         {userLocation && allOutletsWithDist.length > 0 && (
           <div className="bg-white rounded-xl border border-gray-200 shadow-sm overflow-hidden">
             <div className="px-5 py-4 border-b border-gray-100">
-              <h2 className="text-center font-bold text-black text-base leading-tight">
+              <h2 className="text-center font-bold text-black text-base leading-none">
                 Semua hasil pencarian outlet GEEKO diurutkan berdasarkan jarak
                 terdekat dari lokasimu
-                <span className="text-gray-800 font-normal text-sm block mt-0">
+                <span className="text-gray-800 font-normal text-xs block mt-0">
                   Klik tombol Maps untuk melihat lokasi outlet di Google Maps
                 </span>
               </h2>
