@@ -3,7 +3,7 @@ import { GeekoOutlet } from "./types";
 export const GEEKO_OUTLETS: GeekoOutlet[] = [
   {
     id: 1,
-    name: "GEEKO Keputih",
+    name: "Geeko Keputih",
     lat: -7.2903676,
     lng: 112.7961416,
     mapsUrl: "https://maps.app.goo.gl/61wuv1cHV14grJe37",
@@ -11,7 +11,7 @@ export const GEEKO_OUTLETS: GeekoOutlet[] = [
   },
   {
     id: 2,
-    name: "GEEKO UBAYA",
+    name: "Geeko UBAYA",
     lat: -7.3178586,
     lng: 112.7674504,
     mapsUrl: "https://maps.app.goo.gl/fNrY216e2HwmFHXC7",
@@ -19,7 +19,7 @@ export const GEEKO_OUTLETS: GeekoOutlet[] = [
   },
   {
     id: 3,
-    name: "GEEKO Puast UNESA Ketintang",
+    name: "Geeko Pusat Ketintang",
     lat: -7.3096123,
     lng: 112.7308368,
     mapsUrl: "https://maps.app.goo.gl/vM29XvSvC6c3hYMr8",
@@ -27,7 +27,7 @@ export const GEEKO_OUTLETS: GeekoOutlet[] = [
   },
   {
     id: 4,
-    name: "GEEKO ITS",
+    name: "Geeko ITS",
     lat: -7.280556,
     lng: 112.7884876,
     mapsUrl: "https://maps.app.goo.gl/ucwHzpP2fY1N2PYN9",
@@ -35,7 +35,7 @@ export const GEEKO_OUTLETS: GeekoOutlet[] = [
   },
   {
     id: 5,
-    name: "GEEKO Wiyung",
+    name: "Geeko Wiyung",
     lat: -7.3088904,
     lng: 112.6743967,
     mapsUrl: "https://maps.app.goo.gl/dxVF5i6vPJWV8Ain7",
@@ -43,7 +43,7 @@ export const GEEKO_OUTLETS: GeekoOutlet[] = [
   },
   {
     id: 6,
-    name: "GEEKO UNAIR",
+    name: "Geeko UNAIR",
     lat: -7.2679536,
     lng: 112.7749022,
     mapsUrl: "https://maps.app.goo.gl/v2zYE7mFZnKGAcdTA",
@@ -51,12 +51,20 @@ export const GEEKO_OUTLETS: GeekoOutlet[] = [
   },
   {
     id: 7,
-    name: "GEEKO UPN",
+    name: "Geeko UPN",
     lat: -7.3322426,
     lng: 112.7894012,
     mapsUrl: "https://maps.app.goo.gl/bRcGk6fXyXkdCiMt5",
     address: "Gunung Anyar, Surabaya",
   },
+  {
+    id: 8,
+    name: "Geeko Sidoarjo",
+    lat: -7.4566,
+    lng: 112.7094,
+    mapsUrl: "https://maps.app.goo.gl/Aep36MAL7rqP9T167",
+    address: "Sidokare Sidoarjo",
+  }
 ];
 
 export function haversineDistance(
